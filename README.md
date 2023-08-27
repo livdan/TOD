@@ -50,9 +50,9 @@ python prediction.py [OPTIONS]
 Command-line Arguments
 ```
 -p, --predictor_file (required): Path to the predictor file. Select the required .joblib file from maindata_dir/name_of_the_method.
--m, --mass (required): Mass of the animal in kilograms.
+-m, --mass (required): Mass of the person in kilograms.
 -cf, --correction_factor (required): Correction factor (must be one of the choices: [0.7,0.9,1.0,1.1,1.2,1.3,1.4]).
--tr, --rectal_temperature (required): Rectal temperature of the animal in degrees Celsius.
+-tr, --rectal_temperature (required): Rectal temperature of the person in degrees Celsius.
 -ta, --ambient_temperature (required): Ambient temperature in degrees Celsius.
 ```
 Example:
