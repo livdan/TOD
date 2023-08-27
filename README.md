@@ -17,6 +17,7 @@ scipy>=1.9.3
 scikit-learn==1.2.1
 joblib>=1.2.0
 matplotlib>=3.6.2
+pandas
 ```
 Install the required packages by running:
 ```
